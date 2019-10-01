@@ -1,0 +1,515 @@
+﻿<AML>
+ <Item type="qry_QueryDefinition" id="D7DF43488F9A4A0BA7D6D4D4ABC06DDD" action="add">
+  <name>arasExploreDatamodel</name>
+  <Relationships>
+   <Item type="qry_QueryItem" id="C53EE4497B344DE88D74D4366A3369AE" action="add">
+    <item_type keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</item_type>
+    <ref_id>AB69FD242A78416682BFE06E0AE08BE0</ref_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="arasExploreDatamodel" type="qry_QueryDefinition">D7DF43488F9A4A0BA7D6D4D4ABC06DDD</source_id>
+    <alias>ItemType</alias>
+    <Relationships>
+     <Item type="qry_QueryItemSelectProperty" id="2C11B841AD25475588B48E27BCD75D73" action="add">
+      <property_name>id</property_name>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="ItemType" type="qry_QueryItem">C53EE4497B344DE88D74D4366A3369AE</source_id>
+     </Item>
+     <Item type="qry_QueryItemSelectProperty" id="C5F07EB81DEE4E27A52450F270CBEE06" action="add">
+      <property_name>name</property_name>
+      <sort_order>256</sort_order>
+      <source_id keyed_name="ItemType" type="qry_QueryItem">C53EE4497B344DE88D74D4366A3369AE</source_id>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="qry_QueryItem" id="8E62BD3B4C2344BDAB585522A9C5698E" action="add">
+    <item_type keyed_name="TOC Access" type="ItemType" name="TOC Access">38C9CE2A4E06401DABF942E1D0224E87</item_type>
+    <ref_id>86EF91E9BD1B43AC8A7A2E57EEB90E72</ref_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="arasExploreDatamodel" type="qry_QueryDefinition">D7DF43488F9A4A0BA7D6D4D4ABC06DDD</source_id>
+    <alias>TOC Access</alias>
+    <Relationships>
+     <Item type="qry_QueryItemSelectProperty" id="63A40B002F8C421781CD31EA92D758D0" action="add">
+      <property_name>keyed_name</property_name>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="TOC Access" type="qry_QueryItem">8E62BD3B4C2344BDAB585522A9C5698E</source_id>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="qry_QueryItem" id="95DAC674456641EA9C176B707E0CC0AD" action="add">
+    <item_type keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</item_type>
+    <ref_id>B60987A9960E44BC9186F6FF5F685411</ref_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="arasExploreDatamodel" type="qry_QueryDefinition">D7DF43488F9A4A0BA7D6D4D4ABC06DDD</source_id>
+    <alias>Identity</alias>
+    <Relationships>
+     <Item type="qry_QueryItemSelectProperty" id="F21377D1A2674AAC912C56EB5A9ED0FD" action="add">
+      <property_name>keyed_name</property_name>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="Identity" type="qry_QueryItem">95DAC674456641EA9C176B707E0CC0AD</source_id>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="qry_QueryItem" id="74EF128CF4B54C4584A90B61944A6C12" action="add">
+    <item_type keyed_name="View" type="ItemType" name="View">8EFCE40BCB74478B8254CEB594CE8774</item_type>
+    <ref_id>39D24632E68A4DBC9D25320B65214C59</ref_id>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="arasExploreDatamodel" type="qry_QueryDefinition">D7DF43488F9A4A0BA7D6D4D4ABC06DDD</source_id>
+    <alias>View</alias>
+    <Relationships>
+     <Item type="qry_QueryItemSelectProperty" id="F6FFECCE73AD4657A9912A9D002C09DF" action="add">
+      <property_name>keyed_name</property_name>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="View" type="qry_QueryItem">74EF128CF4B54C4584A90B61944A6C12</source_id>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="qry_QueryItem" id="E7E8B8596C7948C7A779B74A9999B7D2" action="add">
+    <item_type keyed_name="Form" type="ItemType" name="Form">47573682FB7549F59ADECD4BFE04F1DE</item_type>
+    <ref_id>3808D21596074BABAE5C212D6F5C156E</ref_id>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="arasExploreDatamodel" type="qry_QueryDefinition">D7DF43488F9A4A0BA7D6D4D4ABC06DDD</source_id>
+    <alias>Form</alias>
+    <Relationships>
+     <Item type="qry_QueryItemSelectProperty" id="2E7C1604A72C44F78CB60C22C8C078F6" action="add">
+      <property_name>keyed_name</property_name>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="Form" type="qry_QueryItem">E7E8B8596C7948C7A779B74A9999B7D2</source_id>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="qry_QueryItem" id="204491D2AA4C4F6681983B73759AE882" action="add">
+    <item_type keyed_name="RelationshipType" type="ItemType" name="RelationshipType">471932C33B604C3099070F4106EE5024</item_type>
+    <ref_id>14405744FF60410BB64D700478884873</ref_id>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="arasExploreDatamodel" type="qry_QueryDefinition">D7DF43488F9A4A0BA7D6D4D4ABC06DDD</source_id>
+    <alias>RelationshipType</alias>
+    <Relationships>
+     <Item type="qry_QueryItemSelectProperty" id="C33762DB755144599378814A20F9DF89" action="add">
+      <property_name>keyed_name</property_name>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="RelationshipType" type="qry_QueryItem">204491D2AA4C4F6681983B73759AE882</source_id>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="qry_QueryItem" id="09E1971E2D3B48118E3B0CCF07390E10" action="add">
+    <filter_xml><![CDATA[<condition>
+	<like>
+		<property name="name" />
+		<constant>_*</constant>
+	</like>
+</condition>]]></filter_xml>
+    <item_type keyed_name="Property" type="ItemType" name="Property">26D7CD4E033242148E2724D3D054B4D3</item_type>
+    <ref_id>34C13075D6B04A89AD8E416B85DA7EFB</ref_id>
+    <sort_order>1024</sort_order>
+    <source_id keyed_name="arasExploreDatamodel" type="qry_QueryDefinition">D7DF43488F9A4A0BA7D6D4D4ABC06DDD</source_id>
+    <alias>Property</alias>
+    <Relationships>
+     <Item type="qry_QueryItemSelectProperty" id="8CE5F979D7DA4D6C92DC22EE2BDE3134" action="add">
+      <property_name>keyed_name</property_name>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="Property" type="qry_QueryItem">09E1971E2D3B48118E3B0CCF07390E10</source_id>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="qry_QueryItem" id="8398E868F26C439686B26905A1CD04B3" action="add">
+    <item_type keyed_name="ItemType Life Cycle" type="ItemType" name="ItemType Life Cycle">A2294A4CD0B14DE4912C1B530218AB57</item_type>
+    <ref_id>739EC9C0FD4E45C68789A8153E252D28</ref_id>
+    <sort_order>1152</sort_order>
+    <source_id keyed_name="arasExploreDatamodel" type="qry_QueryDefinition">D7DF43488F9A4A0BA7D6D4D4ABC06DDD</source_id>
+    <alias>ItemType Life Cycle</alias>
+    <Relationships>
+     <Item type="qry_QueryItemSelectProperty" id="CEE6FA436D834745B45F1428E79AEF34" action="add">
+      <property_name>keyed_name</property_name>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="ItemType Life Cycle" type="qry_QueryItem">8398E868F26C439686B26905A1CD04B3</source_id>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="qry_QueryItem" id="9B81C21F09B4450794CDB93C1F5F8A13" action="add">
+    <item_type keyed_name="Life Cycle Map" type="ItemType" name="Life Cycle Map">AC32527D85604A4D9FC9107C516AEF47</item_type>
+    <ref_id>611942A296144445AA38DD9E52E8A62C</ref_id>
+    <sort_order>1280</sort_order>
+    <source_id keyed_name="arasExploreDatamodel" type="qry_QueryDefinition">D7DF43488F9A4A0BA7D6D4D4ABC06DDD</source_id>
+    <alias>Life Cycle Map</alias>
+    <Relationships>
+     <Item type="qry_QueryItemSelectProperty" id="4DFF04A110474080805C0062D49FEB0D" action="add">
+      <property_name>keyed_name</property_name>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="Life Cycle Map" type="qry_QueryItem">9B81C21F09B4450794CDB93C1F5F8A13</source_id>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="qry_QueryItem" id="5640E28209844D499FB32D0FEF74A3A4" action="add">
+    <item_type keyed_name="Item Action" type="ItemType" name="Item Action">6C280692633D4498BD9CFEA7989138AB</item_type>
+    <ref_id>8988166FC10245F498815DCBAA9B7699</ref_id>
+    <sort_order>1408</sort_order>
+    <source_id keyed_name="arasExploreDatamodel" type="qry_QueryDefinition">D7DF43488F9A4A0BA7D6D4D4ABC06DDD</source_id>
+    <alias>Item Action</alias>
+    <Relationships>
+     <Item type="qry_QueryItemSelectProperty" id="EE08CD20C3CF46CA9785402337F13F18" action="add">
+      <property_name>keyed_name</property_name>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="Item Action" type="qry_QueryItem">5640E28209844D499FB32D0FEF74A3A4</source_id>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="qry_QueryItem" id="680104F43869416C82790939FAE5F0FB" action="add">
+    <item_type keyed_name="Action" type="ItemType" name="Action">483228BE6B9A4C0E99ACD55FDF328DEC</item_type>
+    <ref_id>5D5E53C0CBA84A1988123D938D74D003</ref_id>
+    <sort_order>1536</sort_order>
+    <source_id keyed_name="arasExploreDatamodel" type="qry_QueryDefinition">D7DF43488F9A4A0BA7D6D4D4ABC06DDD</source_id>
+    <alias>Action</alias>
+    <Relationships>
+     <Item type="qry_QueryItemSelectProperty" id="4B2DC562D7B54BDD830EEE27E0E1CA38" action="add">
+      <property_name>keyed_name</property_name>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="Action" type="qry_QueryItem">680104F43869416C82790939FAE5F0FB</source_id>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="qry_QueryItem" id="B8F43BE4A5124C03AFD7F404F0F8F943" action="add">
+    <item_type keyed_name="Can Add" type="ItemType" name="Can Add">3A65F41FF1FC42518A702FDA164AF420</item_type>
+    <ref_id>6558E081032140DCB557030449A49C59</ref_id>
+    <sort_order>1664</sort_order>
+    <source_id keyed_name="arasExploreDatamodel" type="qry_QueryDefinition">D7DF43488F9A4A0BA7D6D4D4ABC06DDD</source_id>
+    <alias>Can Add</alias>
+    <Relationships>
+     <Item type="qry_QueryItemSelectProperty" id="881E139300A74679B977AD71C65447DB" action="add">
+      <property_name>keyed_name</property_name>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="Can Add" type="qry_QueryItem">B8F43BE4A5124C03AFD7F404F0F8F943</source_id>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="qry_QueryItem" id="B6A41B4EE1AF48908722B43B168C8B06" action="add">
+    <item_type keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</item_type>
+    <ref_id>85E986D3DEBF4030BD71964302573CBC</ref_id>
+    <sort_order>1792</sort_order>
+    <source_id keyed_name="arasExploreDatamodel" type="qry_QueryDefinition">D7DF43488F9A4A0BA7D6D4D4ABC06DDD</source_id>
+    <alias>Identity_1</alias>
+    <Relationships>
+     <Item type="qry_QueryItemSelectProperty" id="5601C945709049799EBF05FF255AF2B4" action="add">
+      <property_name>keyed_name</property_name>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="Identity_1" type="qry_QueryItem">B6A41B4EE1AF48908722B43B168C8B06</source_id>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="qry_QueryItem" id="4893B2D584E64C569EAEF736A9BDCE05" action="add">
+    <item_type keyed_name="Allowed Permission" type="ItemType" name="Allowed Permission">DB54505FA3E9419DA3C1E1AFB7A48C1C</item_type>
+    <ref_id>7937FDC0EED54236B31C480300041948</ref_id>
+    <sort_order>1920</sort_order>
+    <source_id keyed_name="arasExploreDatamodel" type="qry_QueryDefinition">D7DF43488F9A4A0BA7D6D4D4ABC06DDD</source_id>
+    <alias>Allowed Permission</alias>
+    <Relationships>
+     <Item type="qry_QueryItemSelectProperty" id="D189ED2CC33A4BC48B83063F2EAF6F8E" action="add">
+      <property_name>keyed_name</property_name>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="Allowed Permission" type="qry_QueryItem">4893B2D584E64C569EAEF736A9BDCE05</source_id>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="qry_QueryItem" id="3FC9A822EFC0449BB20D2C25152EEA4C" action="add">
+    <item_type keyed_name="Permission" type="ItemType" name="Permission">C6A89FDE1294451497801DF78341B473</item_type>
+    <ref_id>E9F5D9606B074BF0A137EE655172B59D</ref_id>
+    <sort_order>2048</sort_order>
+    <source_id keyed_name="arasExploreDatamodel" type="qry_QueryDefinition">D7DF43488F9A4A0BA7D6D4D4ABC06DDD</source_id>
+    <alias>Permission</alias>
+    <Relationships>
+     <Item type="qry_QueryItemSelectProperty" id="345774D566684DE992BB5995C4AD3E69" action="add">
+      <property_name>keyed_name</property_name>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="Permission" type="qry_QueryItem">3FC9A822EFC0449BB20D2C25152EEA4C</source_id>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="qry_QueryItem" id="EC4A8575019942B3AAB6D7B858E137D4" action="add">
+    <item_type keyed_name="Allowed Workflow" type="ItemType" name="Allowed Workflow">10B8BB84EEE9413AAD071C8341BBAB04</item_type>
+    <ref_id>C98A40F41723479382D9B88284B9D9BF</ref_id>
+    <sort_order>2176</sort_order>
+    <source_id keyed_name="arasExploreDatamodel" type="qry_QueryDefinition">D7DF43488F9A4A0BA7D6D4D4ABC06DDD</source_id>
+    <alias>Allowed Workflow</alias>
+    <Relationships>
+     <Item type="qry_QueryItemSelectProperty" id="4E3D1BFF157047BCBF184FA8053C7CA1" action="add">
+      <property_name>keyed_name</property_name>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="Allowed Workflow" type="qry_QueryItem">EC4A8575019942B3AAB6D7B858E137D4</source_id>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="qry_QueryItem" id="F521CC2BE4BA4963A8251BDA99237A02" action="add">
+    <item_type keyed_name="Workflow Map" type="ItemType" name="Workflow Map">B19D349CC6FC44BC97D50A6D70AE79CB</item_type>
+    <ref_id>46FF7A944FAF4ABEA636D27930AB367C</ref_id>
+    <sort_order>2304</sort_order>
+    <source_id keyed_name="arasExploreDatamodel" type="qry_QueryDefinition">D7DF43488F9A4A0BA7D6D4D4ABC06DDD</source_id>
+    <alias>Workflow Map</alias>
+    <Relationships>
+     <Item type="qry_QueryItemSelectProperty" id="AC98229A829B4604AFEEDDA6D32E2A1D" action="add">
+      <property_name>keyed_name</property_name>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="Workflow Map" type="qry_QueryItem">F521CC2BE4BA4963A8251BDA99237A02</source_id>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="qry_QueryItem" id="D59EDFCF70E340DA9AE509823BE55BAB" action="add">
+    <item_type keyed_name="Method" type="ItemType" name="Method">87879A09B8044DE380D59DF22DE1867F</item_type>
+    <ref_id>A957B1F42FC44B298A09606A1A68EFF0</ref_id>
+    <sort_order>2432</sort_order>
+    <source_id keyed_name="arasExploreDatamodel" type="qry_QueryDefinition">D7DF43488F9A4A0BA7D6D4D4ABC06DDD</source_id>
+    <alias>Method</alias>
+    <Relationships>
+     <Item type="qry_QueryItemSelectProperty" id="0294C2C2A49443DA9E3170A870F78EE2" action="add">
+      <property_name>keyed_name</property_name>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="Method" type="qry_QueryItem">D59EDFCF70E340DA9AE509823BE55BAB</source_id>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="qry_QueryParameter" id="E9F219A17D8E44289FC30C112B26D069" action="add">
+    <label xml:lang="en">Item ID</label>
+    <name>id</name>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="arasExploreDatamodel" type="qry_QueryDefinition">D7DF43488F9A4A0BA7D6D4D4ABC06DDD</source_id>
+   </Item>
+   <Item type="qry_QueryReference" id="2A4FD407D2574768A88341BB6C16EFAC" action="add">
+    <child_ref_id>AB69FD242A78416682BFE06E0AE08BE0</child_ref_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="arasExploreDatamodel" type="qry_QueryDefinition">D7DF43488F9A4A0BA7D6D4D4ABC06DDD</source_id>
+   </Item>
+   <Item type="qry_QueryReference" id="9A8B86E539A5444FB8A6686E3262E617" action="add">
+    <child_ref_id>86EF91E9BD1B43AC8A7A2E57EEB90E72</child_ref_id>
+    <filter_xml><![CDATA[<condition>
+	<eq>
+		<property query_items_xpath="parent::Item" name="id" />
+		<property name="source_id" />
+	</eq>
+</condition>]]></filter_xml>
+    <parent_ref_id>AB69FD242A78416682BFE06E0AE08BE0</parent_ref_id>
+    <ref_id>C1D7C5DEDD1F430899C232D1CD5A0D2C</ref_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="arasExploreDatamodel" type="qry_QueryDefinition">D7DF43488F9A4A0BA7D6D4D4ABC06DDD</source_id>
+   </Item>
+   <Item type="qry_QueryReference" id="0C55F7BB97A347AC868CB4A736B5D632" action="add">
+    <child_ref_id>B60987A9960E44BC9186F6FF5F685411</child_ref_id>
+    <filter_xml><![CDATA[<condition>
+	<eq>
+		<property query_items_xpath="parent::Item" name="related_id" />
+		<property name="id" />
+	</eq>
+</condition>]]></filter_xml>
+    <parent_ref_id>86EF91E9BD1B43AC8A7A2E57EEB90E72</parent_ref_id>
+    <ref_id>ED358B0A37A64BEF96DA1B868B2106E1</ref_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="arasExploreDatamodel" type="qry_QueryDefinition">D7DF43488F9A4A0BA7D6D4D4ABC06DDD</source_id>
+   </Item>
+   <Item type="qry_QueryReference" id="4D2C02B01C314AA990EAB2DDECA5B3B6" action="add">
+    <child_ref_id>39D24632E68A4DBC9D25320B65214C59</child_ref_id>
+    <filter_xml><![CDATA[<condition>
+	<eq>
+		<property query_items_xpath="parent::Item" name="id" />
+		<property name="source_id" />
+	</eq>
+</condition>]]></filter_xml>
+    <parent_ref_id>AB69FD242A78416682BFE06E0AE08BE0</parent_ref_id>
+    <ref_id>0500B755D54F4164B0FB9BF995AD781F</ref_id>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="arasExploreDatamodel" type="qry_QueryDefinition">D7DF43488F9A4A0BA7D6D4D4ABC06DDD</source_id>
+   </Item>
+   <Item type="qry_QueryReference" id="63B3AA04B9FC4B6B9DE0DC5F11B92ED9" action="add">
+    <child_ref_id>3808D21596074BABAE5C212D6F5C156E</child_ref_id>
+    <filter_xml><![CDATA[<condition>
+	<eq>
+		<property query_items_xpath="parent::Item" name="related_id" />
+		<property name="id" />
+	</eq>
+</condition>]]></filter_xml>
+    <parent_ref_id>39D24632E68A4DBC9D25320B65214C59</parent_ref_id>
+    <ref_id>0223D1580EB24CB7A3B41B9FB8E7CFF0</ref_id>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="arasExploreDatamodel" type="qry_QueryDefinition">D7DF43488F9A4A0BA7D6D4D4ABC06DDD</source_id>
+   </Item>
+   <Item type="qry_QueryReference" id="4BCDB39DAAD144A2A88B8F22008D0979" action="add">
+    <child_ref_id>14405744FF60410BB64D700478884873</child_ref_id>
+    <filter_xml><![CDATA[<condition>
+	<eq>
+		<property query_items_xpath="parent::Item" name="id" />
+		<property name="source_id" />
+	</eq>
+</condition>]]></filter_xml>
+    <parent_ref_id>AB69FD242A78416682BFE06E0AE08BE0</parent_ref_id>
+    <ref_id>DA115B12E6DB4963BCA86D2E47D084F4</ref_id>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="arasExploreDatamodel" type="qry_QueryDefinition">D7DF43488F9A4A0BA7D6D4D4ABC06DDD</source_id>
+   </Item>
+   <Item type="qry_QueryReference" id="637AD422412B4A1B9A50988D05115311" action="add">
+    <child_ref_id>34C13075D6B04A89AD8E416B85DA7EFB</child_ref_id>
+    <filter_xml><![CDATA[<condition>
+	<eq>
+		<property name="id" query_items_xpath="parent::Item" />
+		<property name="source_id" />
+	</eq>
+</condition>]]></filter_xml>
+    <parent_ref_id>AB69FD242A78416682BFE06E0AE08BE0</parent_ref_id>
+    <ref_id>58CA925BC7294DFEA732808E2A9C555E</ref_id>
+    <sort_order>1024</sort_order>
+    <source_id keyed_name="arasExploreDatamodel" type="qry_QueryDefinition">D7DF43488F9A4A0BA7D6D4D4ABC06DDD</source_id>
+   </Item>
+   <Item type="qry_QueryReference" id="F9D08BBC52AE4E96AD863496693593F8" action="add">
+    <child_ref_id>739EC9C0FD4E45C68789A8153E252D28</child_ref_id>
+    <filter_xml><![CDATA[<condition>
+	<eq>
+		<property query_items_xpath="parent::Item" name="id" />
+		<property name="source_id" />
+	</eq>
+</condition>]]></filter_xml>
+    <parent_ref_id>AB69FD242A78416682BFE06E0AE08BE0</parent_ref_id>
+    <ref_id>D95BEDD3718B4A05BDD959274C70C7D2</ref_id>
+    <sort_order>1152</sort_order>
+    <source_id keyed_name="arasExploreDatamodel" type="qry_QueryDefinition">D7DF43488F9A4A0BA7D6D4D4ABC06DDD</source_id>
+   </Item>
+   <Item type="qry_QueryReference" id="6D4658CD79CF4C83976356D521E5C054" action="add">
+    <child_ref_id>611942A296144445AA38DD9E52E8A62C</child_ref_id>
+    <filter_xml><![CDATA[<condition>
+	<eq>
+		<property query_items_xpath="parent::Item" name="related_id" />
+		<property name="id" />
+	</eq>
+</condition>]]></filter_xml>
+    <parent_ref_id>739EC9C0FD4E45C68789A8153E252D28</parent_ref_id>
+    <ref_id>CAA2243F87F347C4BEB14E6A9842CD5C</ref_id>
+    <sort_order>1280</sort_order>
+    <source_id keyed_name="arasExploreDatamodel" type="qry_QueryDefinition">D7DF43488F9A4A0BA7D6D4D4ABC06DDD</source_id>
+   </Item>
+   <Item type="qry_QueryReference" id="1EB026E31E21433AB4260B1A69E31209" action="add">
+    <child_ref_id>8988166FC10245F498815DCBAA9B7699</child_ref_id>
+    <filter_xml><![CDATA[<condition>
+	<eq>
+		<property query_items_xpath="parent::Item" name="id" />
+		<property name="source_id" />
+	</eq>
+</condition>]]></filter_xml>
+    <parent_ref_id>AB69FD242A78416682BFE06E0AE08BE0</parent_ref_id>
+    <ref_id>0870C774E93848A5ACE7B193578F298B</ref_id>
+    <sort_order>1408</sort_order>
+    <source_id keyed_name="arasExploreDatamodel" type="qry_QueryDefinition">D7DF43488F9A4A0BA7D6D4D4ABC06DDD</source_id>
+   </Item>
+   <Item type="qry_QueryReference" id="49D7CDC8641C48008F300290C89E438C" action="add">
+    <child_ref_id>5D5E53C0CBA84A1988123D938D74D003</child_ref_id>
+    <filter_xml><![CDATA[<condition>
+	<eq>
+		<property query_items_xpath="parent::Item" name="related_id" />
+		<property name="id" />
+	</eq>
+</condition>]]></filter_xml>
+    <parent_ref_id>8988166FC10245F498815DCBAA9B7699</parent_ref_id>
+    <ref_id>66A12994FD3D43FE8FCF7C6E035F96CB</ref_id>
+    <sort_order>1536</sort_order>
+    <source_id keyed_name="arasExploreDatamodel" type="qry_QueryDefinition">D7DF43488F9A4A0BA7D6D4D4ABC06DDD</source_id>
+   </Item>
+   <Item type="qry_QueryReference" id="E1495735A24643FCAD68DA50AD38DA46" action="add">
+    <child_ref_id>6558E081032140DCB557030449A49C59</child_ref_id>
+    <filter_xml><![CDATA[<condition>
+	<eq>
+		<property query_items_xpath="parent::Item" name="id" />
+		<property name="source_id" />
+	</eq>
+</condition>]]></filter_xml>
+    <parent_ref_id>AB69FD242A78416682BFE06E0AE08BE0</parent_ref_id>
+    <ref_id>8457498094BC4CFD96A76C8CB233B639</ref_id>
+    <sort_order>1664</sort_order>
+    <source_id keyed_name="arasExploreDatamodel" type="qry_QueryDefinition">D7DF43488F9A4A0BA7D6D4D4ABC06DDD</source_id>
+   </Item>
+   <Item type="qry_QueryReference" id="DF360524B24644428D4116B9E9AF6EF1" action="add">
+    <child_ref_id>85E986D3DEBF4030BD71964302573CBC</child_ref_id>
+    <filter_xml><![CDATA[<condition>
+	<eq>
+		<property query_items_xpath="parent::Item" name="related_id" />
+		<property name="id" />
+	</eq>
+</condition>]]></filter_xml>
+    <parent_ref_id>6558E081032140DCB557030449A49C59</parent_ref_id>
+    <ref_id>0CA18AA5452B45159C80AAEB48FD12D5</ref_id>
+    <sort_order>1792</sort_order>
+    <source_id keyed_name="arasExploreDatamodel" type="qry_QueryDefinition">D7DF43488F9A4A0BA7D6D4D4ABC06DDD</source_id>
+   </Item>
+   <Item type="qry_QueryReference" id="0D2B1D41BC4344CEA93D4AE6BA23B3BF" action="add">
+    <child_ref_id>7937FDC0EED54236B31C480300041948</child_ref_id>
+    <filter_xml><![CDATA[<condition>
+	<eq>
+		<property query_items_xpath="parent::Item" name="id" />
+		<property name="source_id" />
+	</eq>
+</condition>]]></filter_xml>
+    <parent_ref_id>AB69FD242A78416682BFE06E0AE08BE0</parent_ref_id>
+    <ref_id>82391CD691B64F06AB607606CF92391B</ref_id>
+    <sort_order>1920</sort_order>
+    <source_id keyed_name="arasExploreDatamodel" type="qry_QueryDefinition">D7DF43488F9A4A0BA7D6D4D4ABC06DDD</source_id>
+   </Item>
+   <Item type="qry_QueryReference" id="2D8741F63F4248438B3CAA407A106967" action="add">
+    <child_ref_id>E9F5D9606B074BF0A137EE655172B59D</child_ref_id>
+    <filter_xml><![CDATA[<condition>
+	<eq>
+		<property query_items_xpath="parent::Item" name="related_id" />
+		<property name="id" />
+	</eq>
+</condition>]]></filter_xml>
+    <parent_ref_id>7937FDC0EED54236B31C480300041948</parent_ref_id>
+    <ref_id>6EBC2C5523C44B45BAAF96BA4F8EA654</ref_id>
+    <sort_order>2048</sort_order>
+    <source_id keyed_name="arasExploreDatamodel" type="qry_QueryDefinition">D7DF43488F9A4A0BA7D6D4D4ABC06DDD</source_id>
+   </Item>
+   <Item type="qry_QueryReference" id="E315320D9FAF40208A2B7052E9A8A2AC" action="add">
+    <child_ref_id>C98A40F41723479382D9B88284B9D9BF</child_ref_id>
+    <filter_xml><![CDATA[<condition>
+	<eq>
+		<property query_items_xpath="parent::Item" name="id" />
+		<property name="source_id" />
+	</eq>
+</condition>]]></filter_xml>
+    <parent_ref_id>AB69FD242A78416682BFE06E0AE08BE0</parent_ref_id>
+    <ref_id>D88242A5A626474395AB7D1CE1DEA2C6</ref_id>
+    <sort_order>2176</sort_order>
+    <source_id keyed_name="arasExploreDatamodel" type="qry_QueryDefinition">D7DF43488F9A4A0BA7D6D4D4ABC06DDD</source_id>
+   </Item>
+   <Item type="qry_QueryReference" id="4F1EB6E7C0804FC998EF2C0E7DD86F1F" action="add">
+    <child_ref_id>46FF7A944FAF4ABEA636D27930AB367C</child_ref_id>
+    <filter_xml><![CDATA[<condition>
+	<eq>
+		<property query_items_xpath="parent::Item" name="related_id" />
+		<property name="id" />
+	</eq>
+</condition>]]></filter_xml>
+    <parent_ref_id>C98A40F41723479382D9B88284B9D9BF</parent_ref_id>
+    <ref_id>1DC7D8C32EF64A7BB1E605BF6F2665BF</ref_id>
+    <sort_order>2304</sort_order>
+    <source_id keyed_name="arasExploreDatamodel" type="qry_QueryDefinition">D7DF43488F9A4A0BA7D6D4D4ABC06DDD</source_id>
+   </Item>
+   <Item type="qry_QueryReference" id="FC3744B815344B63872D8F7D454041F3" action="add">
+    <child_ref_id>AB69FD242A78416682BFE06E0AE08BE0</child_ref_id>
+    <filter_xml><![CDATA[<condition>
+	<eq>
+		<property query_items_xpath="parent::Item" name="related_id" />
+		<property name="id" />
+	</eq>
+</condition>]]></filter_xml>
+    <parent_ref_id>14405744FF60410BB64D700478884873</parent_ref_id>
+    <ref_id>567CCB7453974977ACF597CD2B550232</ref_id>
+    <sort_order>2432</sort_order>
+    <source_id keyed_name="arasExploreDatamodel" type="qry_QueryDefinition">D7DF43488F9A4A0BA7D6D4D4ABC06DDD</source_id>
+   </Item>
+   <Item type="qry_QueryReference" id="0CFD902AFB0541FC9349B1B494175965" action="add">
+    <child_ref_id>A957B1F42FC44B298A09606A1A68EFF0</child_ref_id>
+    <filter_xml><![CDATA[<condition>
+	<eq>
+		<property query_items_xpath="parent::Item" name="method" />
+		<property name="id" />
+	</eq>
+</condition>]]></filter_xml>
+    <parent_ref_id>5D5E53C0CBA84A1988123D938D74D003</parent_ref_id>
+    <ref_id>6A6B9FD45FE942C0B255BF6127182EC0</ref_id>
+    <sort_order>2560</sort_order>
+    <source_id keyed_name="arasExploreDatamodel" type="qry_QueryDefinition">D7DF43488F9A4A0BA7D6D4D4ABC06DDD</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>
