@@ -12,13 +12,13 @@ This projects allow you to easily navigate, take screenshots to exchange on it.
 
 Release | Notes
 --------|--------
-[{release_tag}](https://github.com/{username}/{repo_name}/releases/tag/{release_tag}) | Enter your release notes here.
+[V1](https://github.com/hguid/arasExploreDatamodel/tree/V1) | Enter your release notes here.
 
 #### Supported Aras Versions
 
 Project | Aras
 --------|------
-[{release_tag}](https://github.com/{username}/{repo_name}/releases/tag/{release_tag}) | List the Aras versions supported by your project here. Ex: "11 SP12" or "11 SP10+"
+[V1](https://github.com/hguid/arasExploreDatamodel/tree/V1) | List the Aras versions supported by your project here. Ex: "11 SP12" or "11 SP10+"
 
 
 ## Installation
