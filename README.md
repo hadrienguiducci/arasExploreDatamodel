@@ -23,7 +23,7 @@ Release | Notes
 
 Project | Aras
 --------|------
-[V1](https://github.com/hguid/arasExploreDatamodel/tree/V1) | List the Aras versions supported by your project here. Ex: "11 SP12" or "11 SP10+"
+[V1](https://github.com/hguid/arasExploreDatamodel/tree/V1) | Tested on 11sp15, 12sp18 and 14r23
 
 
 ## Installation
@@ -33,7 +33,7 @@ Project | Aras
 
 ### Pre-requisites
 
-1. Aras Innovator installed (version 11sp15 or > 12sp0 preferred)
+1. Aras Innovator installed (version 11sp15 or > 12spX / or 14R14 preferred)
 2. Aras Package Import Utility
 3. arasExploreDatamodel package stored in \arasExploreDatamodel\import
 
