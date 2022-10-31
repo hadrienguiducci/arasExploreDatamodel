@@ -6,6 +6,7 @@ As a administrator, consultant,... I often need to share the physical datamodel 
 
 This projects allow you to easily navigate, take screenshots to exchange on it.
 
+![Example](Screenshots/10%20Explore%20OOTB%20datamodel%20you%20modified.jpg)
 
 
 ## Project Details
