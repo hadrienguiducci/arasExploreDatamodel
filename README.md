@@ -10,7 +10,7 @@ Example on a custom item :
 ![Example on a custom item](./Screenshots/9_Explore_your_Item_datamodel.png)
 
 Example on an OOTB item Part :
-![Example on an OOTB item Part](./Screenshots/10_Explore_OOTB_datamodel_you_modified.png)
+![Example on an OOTB item Part](./Screenshots/10_Explore_OOTB_data_model_you_modified.png)
 
 
 ## Project Details
